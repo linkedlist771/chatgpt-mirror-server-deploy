@@ -3,7 +3,7 @@ set -e
 
 ## 克隆仓库到本地
 echo "clone repository..."
-git clone --depth=1 https://github.com/xyhelper/chatgpt-mirror-server-deploy.git chatgpt-mirror
+git clone --depth=1 https://github.com/linkedlist771/chatgpt-mirror-server-deploy.git chatgpt-mirror
 
 ## 进入目录
 cd chatgpt-mirror
