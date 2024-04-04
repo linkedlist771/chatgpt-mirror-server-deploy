@@ -22,7 +22,7 @@ services:
     volumes:
       - ./data/redis/:/data/
   chatgpt-mirror-server:
-    image: xyhelper/chatgpt-mirror-server:latest
+    image: llinkedlist/chatgpt-mirror-server-modified:latest
     restart: always
     ports:
       - 8200:8001
